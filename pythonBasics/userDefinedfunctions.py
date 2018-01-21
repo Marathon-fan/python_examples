@@ -22,6 +22,9 @@ def print_people(*people):   #  * means an array
     for person in people:
     	print("This person is", person)
 
+# return values from functions
+def do_math(num1, num2):
+	return num1 + num2
 
 
 my_function1()
@@ -39,3 +42,6 @@ my_function3()
 my_function4(None, 27)
 
 print_people("Nick", "Dan", "Jack", "King")
+
+print(do_math(2,34))
+
