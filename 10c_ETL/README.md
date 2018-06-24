@@ -36,8 +36,3 @@ for t in sourceTables:
 	etl.todb(sourceDs, targetConn, t[0], create=True, sample=1000)
 
 ```
-
-
-
-
-
