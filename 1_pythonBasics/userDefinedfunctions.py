@@ -4,7 +4,6 @@ def my_function1():
 	print("This is my function!")
 	print("a second string.")
 
-
 def my_function2(str1, str2):
 	print(str1)
 	print(str2)
@@ -26,11 +25,9 @@ def print_people(*people):   #  * means an array
 def do_math(num1, num2):
 	return num1 + num2
 
-
 my_function1()
 
 my_function2("hello", "function2")
-
 
 my_function3("Nick",27)
 
@@ -38,10 +35,8 @@ my_function3("Nick")
 
 my_function3()
 
-
 my_function4(None, 27)
 
 print_people("Nick", "Dan", "Jack", "King")
 
 print(do_math(2,34))
-
